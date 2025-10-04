@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sourav - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <img src="picture.png" alt="Profile Picture" class="profile-img"/>
+    <h1>Sourav Sasmal</h1>
+    <h2>Web Developer</h2>
+    <p>I create functional websites with great UX & clean code.</p>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="center-text">
+      Hi, I’m Sourav, a passionate developer learning and building modern web applications.
+      I love exploring new tech, solving problems, and turning ideas into reality.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-list">
+      <p><b>2020-2021:</b> WBBSE – Akshaynagar Kumar Narayan Madhyamik Sikshayatan</p>
+      <p><b>2021-2023:</b> WBCHSE – Debnagar Mokshoda Dinda H.S. School</p>
+      <p><b>2023-2027:</b> BCA, MAKAUT University</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+      <div class="skill"><i class="fas fa-code"></i><h3>Front-End</h3><p>HTML, CSS, JavaScript, React</p></div>
+      <div class="skill"><i class="fas fa-server"></i><h3>Back-End</h3><p>Node.js, Express, Databases</p></div>
+      <div class="skill"><i class="fas fa-pencil-ruler"></i><h3>UI/UX</h3><p>Figma, Prototyping</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <img src="https://picsum.photos/500/300?1" alt="Movie-Jem"/>
+        <div class="project-content">
+          <h3>Movie-Jem</h3>
+          <p>Safe, responsive platform to watch movies.</p>
+          <a href="file:///C:/Users/Sourav/Desktop/Create%20a%20Responsive%20landing%20Page%20Explanation-2/index.html" class="btn">View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://picsum.photos/500/300?2" alt="Zoogle"/>
+        <div class="project-content">
+          <h3>Zoogle</h3>
+          <p>This website is a high-quality browser.</p>
+          <a href="file:///C:/Users/Sourav/Desktop/Clone%20the%20Google%20Homepage-3/index.html" class="btn">View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://picsum.photos/500/300?3" alt="SimpleBlog"/>
+        <div class="project-content">
+          <h3>SimpleBlog</h3>
+          <p>Always want to learn something new.</p>
+          <a href="file:///C:/Users/Sourav/Desktop/Build%20a%20Simple%20Blog%20Page%20-5/index.html" class="btn">View</a>  
+        </div>
+      </div>
+
+      <!-- 🔥 New Project -->
+      <div class="project">
+        <img src="https://picsum.photos/500/300?4" alt="QuickDelivery"/>
+        <div class="project-content">
+          <h3>Image Gallery</h3>
+          <p>You can find good pictures on this website.</p>
+          <a href="file:///C:/Users/Sourav/Desktop/Create%20an%20Image%20Gallery%20-6/index.html" class="btn">View</a>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> souravsasmal446@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 8597413363</p>
+        <p><i class="fas fa-map-marker-alt"></i> Namkhana, West Bengal</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/login/in" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://workspace.google.com/intl/en-US/gmail/" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" id="name"/>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="email"/>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sourav Sasmal. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
